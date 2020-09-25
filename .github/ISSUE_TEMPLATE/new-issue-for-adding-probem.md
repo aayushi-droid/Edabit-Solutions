@@ -9,8 +9,8 @@ assignees: ''
 
 Before jumping into Pr first comment for assign.
 
-**Problem statement:**:
-Link: https://edabit.com/challenge/nasKYub6qEAfQcFuy
+**Problem statement:**
+**Probelm Link:** 
 
 ---
 Before submitting a PR please Check some details.
