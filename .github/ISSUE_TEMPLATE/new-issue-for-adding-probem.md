@@ -17,13 +17,11 @@ Before submitting a PR please Check some details.
 
 - [ ] fileName formet should be in camelcase
     example- returnTheNextNumber.py
-
-- [ ]  In file there should be problem statement and link to probelm
-- [ ]  Add label for Problem
-    example - 
+- [ ]  Choose label for Problem , example- "good first issue", "easy"
+- [ ]  In file there should be problem statement and link to problem
 ```cpp
-/* this program will add two numbers
-    * Problem : https://edabit.com/challenge/SFzHtm63XT6EYNHWY
+/* Problem-Task : This program will add two numbers
+ * Problem Link : https://edabit.com/challenge/SFzHtm63XT6EYNHWY
 */
 int main() {
     int bla;
