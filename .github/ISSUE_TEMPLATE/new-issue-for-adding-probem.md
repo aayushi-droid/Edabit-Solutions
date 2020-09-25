@@ -9,8 +9,10 @@ assignees: ''
 
 Before jumping into Pr first comment for assign.
 
-**Problem statement:**
-**Probelm Link:** 
+**Problem statement** :
+**Probelm Link** : 
+**Choose one Cateorgy** - Very Easy, Easy, Medium, Hard, Very Hard, Expert 
+**question category** : 
 
 ---
 Before submitting a PR please Check some details.
