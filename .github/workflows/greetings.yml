@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hi thanks for creating your first issue at Py-Droid, hope you followed the guidelines.'' first issue'
+        pr-message: 'Hi thanks for creating your first Pull Request at Py-Droid, hope you followed the guidelines.'' first pr'
