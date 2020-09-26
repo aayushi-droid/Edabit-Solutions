@@ -1,11 +1,3 @@
----
-name: Make Pull Request
-about: follow all guidelines before making PR
-title: ''
-labels: C++, hacktoberfest
-assignees: ''
-
----
 ## Description
 
 Write here what you have changed
