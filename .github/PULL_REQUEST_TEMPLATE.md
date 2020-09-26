@@ -1,11 +1,12 @@
 ## Description
 
-Write here what you have changed
+enter here if you have any details
 
+**Program Name** -       
 **Issue No.**- #
 > Type issue number after hash(#)
 
-## Checklist
+## Checklist(self check)
 
 - [ ] Yes, this task assigned to me.
 - [ ] My code follows the style guidelines(Clean Code) of this project
