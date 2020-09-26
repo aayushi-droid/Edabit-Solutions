@@ -24,4 +24,4 @@ int main()
 	return 0; 
 } 
 
-// This code is contributed Keshav Jha
+// This code is contributed by Keshav Jha
