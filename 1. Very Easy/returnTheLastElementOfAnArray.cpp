@@ -1,3 +1,8 @@
+/* this program will last element of the array
+    * Problem statement : Create a function that takes an array and a number as an argument, 
+    * return the last element of the array.   
+    * https://edabit.com/challenge/4GZcWTiv2GPA9NfcP
+*/
 #include <iostream>
 using namespace std;
 
