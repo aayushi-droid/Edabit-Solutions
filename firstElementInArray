@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{ int n;
+  cin>>n;  //size of array
+  int a[n];
+  for(int i=0;i<n;i++)
+  {
+  cin>>a[i];
+  }
+  cout<<a[0]<<"\n";   //first element in an array
+  return 0;
+  }

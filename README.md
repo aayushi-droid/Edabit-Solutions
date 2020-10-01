@@ -1,5 +1,12 @@
 # Edabit-Solutions
 
+![C++](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
+
+![forks](https://img.shields.io/github/forks/Py-Droid/Edabit-Solutions?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/Py-Droid/Edabit-Solutions?style=for-the-badge)
+![license](https://img.shields.io/github/license/Py-Droid/Edabit-Solutions?style=for-the-badge)
+![contributors](https://img.shields.io/github/contributors/Py-Droid/Edabit-Solutions?style=for-the-badge)
+
 Edabit Solutions using Cpp
 
 ### Contributors
