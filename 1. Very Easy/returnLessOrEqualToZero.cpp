@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int lessThanOrEqualToZero(int a) {
+bool lessThanOrEqualToZero(int a) {
     return (a <= 0);
 };
 
