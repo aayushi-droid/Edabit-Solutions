@@ -1,6 +1,6 @@
 
 
-Edabit Solutions using Cpp
+
 <p>
     <img src="https://1.bp.blogspot.com/-H0JkBDVb9eE/X3Y2-yVsaAI/AAAAAAAAFwI/LOHTCZzJVlYuAycgknmoYTCzc8MwzVYjACLcBGAsYHQ/s1280/Black%2BFly%2BTying%2BYoutube%2BThumbnail.jpg">
     </p>
