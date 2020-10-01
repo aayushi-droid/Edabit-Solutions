@@ -1,3 +1,13 @@
+/*
+This Program will find the number occuring only one time in any array.
+
+Test cases must include a number which occur one time and all the other
+numbers will occur for even number of time.
+
+LINK : https://edabit.com/challenge/wgnmQTbfssuhvZHqe
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
