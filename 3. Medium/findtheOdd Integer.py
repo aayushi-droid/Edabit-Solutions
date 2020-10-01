@@ -1,7 +1,7 @@
-/*
-  * This program finds the integer which appears odd number of times
-  * Problem : https://edabit.com/challenge/wgnmQTbfssuhvZHqe
-*/
+
+  #This program finds the integer which appears odd number of times
+  # Problem : https://edabit.com/challenge/wgnmQTbfssuhvZHqe
+
 
 def getOddOccurrence(arr, arr_size): 
 	
