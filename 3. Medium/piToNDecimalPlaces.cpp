@@ -1,5 +1,6 @@
-/* this program will display to n number o decimal places of PI.
-    * Problem : https://edabit.com/challenge/wzPBMkanx2Db8Kpmp
+/* 
+   Problem-Task : This program will display to n number og decimal places of PI.
+   Problem-Link : https://edabit.com/challenge/wzPBMkanx2Db8Kpmp
 */
 
 #include <iostream>
@@ -7,11 +8,13 @@
 
 using namespace std;
 
-double myPi(int n) {
-	return round(M_PI*pow(10, n))/pow(10, n);
+double myPi(int n)
+{
+    return round(M_PI * pow(10, n)) / pow(10, n);
 }
 
-int main(){
+int main()
+{
     int n;
     double piVal;
     cout << "Enter number of decimal places to which PI will be displayed : ";
