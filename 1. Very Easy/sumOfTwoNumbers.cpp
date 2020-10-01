@@ -11,8 +11,10 @@ int addition(int a, int b) {
 int main() {
 
     int sum;
-
-    sum = addition(5, 4);
-    cout << sum << endl;
+    cout<<"Enter the two numbers \n";
+    int a,b; 
+    cin>>a>>b;
+    sum = addition(a,b);
+    cout << "Sum of two numbers are: "<<sum << endl;
     return 0;
 }
