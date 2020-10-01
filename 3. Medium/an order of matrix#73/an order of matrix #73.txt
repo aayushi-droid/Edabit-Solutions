@@ -1,0 +1,12 @@
+/* problem-task Your function needs to create an a × b matrix where a is the first argument and b is the second.
+/*Probelm Link : https://edabit.com/challenge/qbpHHZYQrJnNYjtjn
+
+
+std::vector<std::vector<int> > orderedMatrix(int a, int b) {
+	std::vector<std::vector<int>> vect(a, std::vector<int>(b));
+	int num = 1;
+	for (int i = 0; i < a; i++) 
+		for (int j = 0; j < b; j++)
+			vect[i][j] = num++;
+	return vect;
+}
