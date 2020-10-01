@@ -1,3 +1,5 @@
+//Problem statement : Create a function that takes two numbers as arguments and returns the Greatest Common Devisor (GCD) of the two numbers.
+//Problem Link : https://edabit.com/challenge/BzEQsTSmPATbsZJCR
 #include <iostream>
 using namespace std;
 int GCD(int a ,int b)
