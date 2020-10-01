@@ -19,4 +19,5 @@ int main()
     cout << lessThanOrEqualToZero(5) << endl;
     cout << lessThanOrEqualToZero(0) << endl;
     cout << lessThanOrEqualToZero(2);
+    return 0;
 }
