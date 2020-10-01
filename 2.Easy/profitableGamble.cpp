@@ -7,12 +7,13 @@ Problem Link : https://edabit.com/challenge/KWHHhfYMDEEvASK6G
 #include <iostream>
 using namespace std;
 
-int profitableGamble(float prob, int prize, float pay) {
+void profitableGamble(float prob, int prize, float pay) {
     if(prob * prize > pay ) {
         cout << "true";
     }else{
         cout << "false";
     }
+  return;
 }
 
 int main() {
