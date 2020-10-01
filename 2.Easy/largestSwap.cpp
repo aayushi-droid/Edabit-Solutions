@@ -8,16 +8,16 @@ bool largestSwap(int num)
 {
     int rev = 0, d;
     int dup = num;
+    bool res = true;
     while (num > 0)
     {
         d = num % 10;
         num /= 10;
         rev = rev * 10 + d;
     }
-    if (dup >= rev)
-        return true;
-    else
-        return false;
+    if (dup < rev)
+        res = false;
+    return res;
 }
 
 int main()
