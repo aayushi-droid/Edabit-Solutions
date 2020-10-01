@@ -1,3 +1,5 @@
+//Problem Statement: Create a function that takes in an array of numbers and returns the sum of its cubes.
+// Problem link: https://edabit.com/challenge/XdAR3KohR5w7rjrFg
 #include <iostream>
 using namespace std; 
   
