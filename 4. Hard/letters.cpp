@@ -1,3 +1,6 @@
+// Problem statement: Create a function that returns the number of characters shared between two words.
+// Probelm Link: https://edabit.com/challenge/qeCS48GXtK9NJLc9C
+
 #include<bits/stdc++.h>
 using namespace std;
 int sharedLetters(std::string str1, std::string str2) {
