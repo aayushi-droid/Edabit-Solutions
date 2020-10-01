@@ -1,3 +1,8 @@
+/*
+Given a string s, find the longest palindromic subsequence's length in s. You may assume that the maximum length of s is 1000.
+Problem Link: https://leetcode.com/problems/longest-palindromic-subsequence/
+*/
+
 class Solution {
 public:
     int lcs(string X, string Y, int m, int n ) {  
