@@ -1,4 +1,4 @@
-// Problem statement: Create a function that takes two numbers as arguments and returns the Greatest Common
+// Problem statement: Create a function that takes two numbers as arguments and returns the Greatest Common Devisor (GCD) of the two numbers.
 // Probelm Link: https://edabit.com/challenge/BzEQsTSmPATbsZJCR
 #include<bits/stdc++.h>
 using namespace std;
