@@ -4,6 +4,14 @@
 <p>
     <img src="https://1.bp.blogspot.com/-H0JkBDVb9eE/X3Y2-yVsaAI/AAAAAAAAFwI/LOHTCZzJVlYuAycgknmoYTCzc8MwzVYjACLcBGAsYHQ/s1280/Black%2BFly%2BTying%2BYoutube%2BThumbnail.jpg">
     </p>
+    
+    ## WHY Should You Do Edabit Questions ?
+  1. If you want to crack the interviews and get into the product based companies.
+  2. Nearly everything functional in computer science is an implementation of data structure along with certain algorithms
+  3. If you love to solve the real-world complex problems.
+
+    
+    
 ### Contributors
 <!-- Don't Change under this line-->
 <!-- Contributors:List-->
