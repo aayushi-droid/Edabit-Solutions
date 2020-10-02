@@ -15,6 +15,7 @@ int gcd(int n1, int n2) {
 }
 
 int main(){
+	
     cout<<gcd(32,8)<<endl;
     cout<<gcd(8,12)<<endl;
     return 0;
