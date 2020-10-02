@@ -5,23 +5,17 @@
 
 #include <iostream>
 using namespace std;
-
-int isEvenOrOdd(int number)
-{
-    if(number%2==0)
-    {
-    	cout<<"even";
-	}
-	else 
-	{
-		cout<<"odd";
-	}
-}
-
 int main()
 {
-    int number;
-    cin>>number;
-    isEvenOrOdd(number);
-    return 0;
+	int num;
+	cout<<"Enter the number  "<<endl;
+	cin>>num;
+	if(num%2==0)
+	{
+	    cout<<num <<" is is Even"<<endl;	
+	}
+	else
+		cout<<num <<" is odd"<<endl;
+
+ return 0;
 }
