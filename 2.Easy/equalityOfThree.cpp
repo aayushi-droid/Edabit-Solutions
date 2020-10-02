@@ -12,7 +12,7 @@ int equal(int a, int b, int c) {
 		} else if (a!=b && b!=c && c!=a) {
 			return 0;
 		} else {
-			return 2
+			return 2;
 		}
 };
 
