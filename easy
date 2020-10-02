@@ -1,0 +1,7 @@
+/* Problem statement: Create a function that returns true when num1 is equal to num2; otherwise return false.
+   Problem link: https://edabit.com/challenge/uSiEPX7YrhNsqtzMr    */
+#include<iostream>
+
+bool isSameNum(int num1, int num2) {
+   return num1==num2;
+}
