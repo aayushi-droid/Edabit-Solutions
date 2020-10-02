@@ -6,17 +6,19 @@
 #include <iostream>
 using namespace std;
 
-int areaOfTrianle(int b, int h) {
-    return ((b * h) / 2);
+int areaOfTriangle(int b, int h)
+{
+  return ((b * h) / 2);
 };
 
-int main() {
+int main()
+{
 
-    int base, height, area;
+  int base, height, area;
 
-    cin >> base >> height;
-		area = areaOfTriangle(base, height);
-    cout << area << endl;
-    
-		return 0;
+  cin >> base >> height;
+  area = areaOfTriangle(base, height);
+  cout << area << endl;
+
+  return 0;
 }

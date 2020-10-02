@@ -6,18 +6,20 @@ Problem Link : https://edabit.com/challenge/9MjEpkL7yAjAqiH58
 #include <bits/stdc++.h>
 using namespace std;
 
-bool lessThan100(int num1, int num2){
-    if(num1 + num2 < 100)
+bool lessThan100(int num1, int num2)
+{
+    if (num1 + num2 < 100)
         return true;
     return false;
 }
 
-int main(){
+int main()
+{
     int num1, num2;
     cin >> num1 >> num2;
-    if(lessThan100(num1, num2))
+    if (lessThan100(num1, num2))
         cout << "true";
-    else 
+    else
         cout << "false";
     return 0;
 }

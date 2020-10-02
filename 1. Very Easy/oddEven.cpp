@@ -8,20 +8,20 @@ using namespace std;
 
 int isEvenOrOdd(int number)
 {
-    if(number%2==0)
+    if (number % 2 == 0)
     {
-    	cout<<"even";
-	}
-	else 
-	{
-		cout<<"odd";
-	}
+        cout << "even";
+    }
+    else
+    {
+        cout << "odd";
+    }
 }
 
 int main()
 {
     int number;
-    cin>>number;
-    isEvenOrOdd(number);
+    cin >> number;
+    cout << isEvenOrOdd(number);
     return 0;
 }
