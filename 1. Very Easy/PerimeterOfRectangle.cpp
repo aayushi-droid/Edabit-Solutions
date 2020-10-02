@@ -1,4 +1,4 @@
-// ****Task to find Perimeter of a Rectangle****
+// ****Task :- Create a function that takes length and width and finds the perimeter of a rectangle.****
 // ***Problem link : https://edabit.com/challenge/XnJ24rWW7iJkNrtsh
 
 #include <iostream>
