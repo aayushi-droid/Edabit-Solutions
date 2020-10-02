@@ -7,7 +7,7 @@
 ![license](https://img.shields.io/github/license/Py-Droid/Edabit-Solutions?style=for-the-badge)
 ![contributors](https://img.shields.io/github/contributors/Py-Droid/Edabit-Solutions?style=for-the-badge)
 
-Edabit Solutions using Cpp
+>Edabit Solutions using Cpp
 
 ### Author
 <!-- Don't Change under this line-->
