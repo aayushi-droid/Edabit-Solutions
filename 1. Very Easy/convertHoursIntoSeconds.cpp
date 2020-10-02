@@ -3,6 +3,9 @@ Problem Link
 https://edabit.com/challenge/y9Jhs33vdts5GPMW7
 
 */
+/*Problem Statement
+Write a function that converts hours into seconds.
+*/
 
 
 
