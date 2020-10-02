@@ -8,8 +8,7 @@ using namespace std;
 
 string helloName(string name)
 {
-    string S = "Hello " + name + "!";
-    return S;
+    return "Hello " + name + "! How are you?";
 }
 
 int main()

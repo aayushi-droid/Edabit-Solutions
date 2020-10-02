@@ -5,16 +5,10 @@
 using namespace std;
 
 bool largestSwap(int num)
-{
-    int rev = 0, d;
-    int dup = num;
-    while (num > 0)
-    {
-        d = num % 10;
-        num /= 10;
-        rev = rev * 10 + d;
-    }
-    if (dup >= rev)
+{    
+    int temp = (num%10)*10 + (num/10);
+
+    if(temp < num)
         return true;
     else
         return false;

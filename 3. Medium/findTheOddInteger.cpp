@@ -3,7 +3,8 @@
   * Problem : https://edabit.com/challenge/wgnmQTbfssuhvZHqe
 */
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 
 int findOdd(vector<int> ar) {

@@ -12,8 +12,5 @@ int addition(int n) {
 }
 
 int main() {
-    int nextNumber;
-
-    nextNumber = addition(5);
-    cout << nextNumber << endl;
+    cout << addition(5) << endl;
 }

@@ -9,10 +9,7 @@ int addition(int a, int b) {
 };
 
 int main() {
-
-    int sum;
-
-    sum = addition(5, 4);
-    cout << sum << endl;
+;
+    cout << addition(5, 4) << endl;
     return 0;
 }
