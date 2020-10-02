@@ -1,0 +1,14 @@
+/* Task : Create a function that returns the string "Burp" with the amount of "r's" determined by the input parameters of the function.
+ * Problem link: https://edabit.com/challenge/vxpP4nnDhRr2Yc3Lo
+ */
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    cout<<"Bu";while(n--)cout<<"r";cout<<"p";
+    return 0;
+}
