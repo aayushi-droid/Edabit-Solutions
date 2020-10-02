@@ -9,6 +9,8 @@ int main()
 {
     int step;
     cin>>step;
-    int tri=(step*(step+1))/2;
-    cout<<tri*tri;
+    int tri=step*(step+1);
+    tri=tri/2;
+    tri=tri*tri;
+    cout<<tri;
 }
