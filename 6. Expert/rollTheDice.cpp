@@ -41,7 +41,7 @@ int diceRoll(int numDice, int outcome) {
 			}
 		}
 	}
-
+	//return to Combinations
 	return combinations;
 }
 
