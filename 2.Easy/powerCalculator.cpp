@@ -7,7 +7,7 @@ using namespace std;
 
 double powerCalculator(double voltage, double current) {
 
-	return voltage * current;
+	return voltage*current;
 
 }
 
