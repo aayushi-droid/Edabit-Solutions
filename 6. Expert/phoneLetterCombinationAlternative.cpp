@@ -9,7 +9,7 @@ void dfs(string digits, unordered_map<char, string> myMap, int idx, vector<char>
         res.push_back(s);
         return;
     }
-    for (auto& c: myMap[digits[idx]]) {
+    for(auto& c: myMap[digits[idx]]) {
         path.push_back(c);
         dfs(digits, myMap, idx+1, path, res);
         path.pop_back();
