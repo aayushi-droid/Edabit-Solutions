@@ -7,11 +7,13 @@
 #include <iostream>
 using namespace std;
 
-int addition(int n) {
-    return n + 1;
+int addition(int n)
+{
+    return ++n; //using unary operator instead of perforing adding operation.
 }
 
-int main() {
+int main()
+{
     int nextNumber;
 
     nextNumber = addition(5);

@@ -62,7 +62,7 @@ int main()
 	//input
 	string s;
 	int k;
-	getline(cin, s);
+	getline(cin, s);//input string with space
 	cin >> k;
 
 	cout << caesarCipher(s, k) << endl;
