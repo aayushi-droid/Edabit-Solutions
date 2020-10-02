@@ -20,5 +20,5 @@ int main()
 	return 0; 
 } 
 
-//problem statement: Reverse string using recursion
+//problem statement: Recursion: Reverse a String
 //link of problem statement: https://edabit.com/challenge/HXGx9oXukEgsFK6PH
