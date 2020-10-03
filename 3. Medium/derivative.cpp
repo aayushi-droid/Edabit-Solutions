@@ -1,6 +1,5 @@
 /*
-  * This program takes numbers b and m as arguments and returns the derivative of the function f(x)=x^b with respect to x at the point where x=m, where band m are constants.
-  
+  * This program takes numbers b and m as arguments and returns the derivative of the function f(x)=x^b with respect to x at the point where x=m, where b and m are constants.
   * Problem : https://edabit.com/challenge/sR3aNNQ9kJoSurDLK
 */
 #include <iostream>
