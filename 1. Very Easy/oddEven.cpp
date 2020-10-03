@@ -1,27 +1,22 @@
-
-/* Problem-Task : Is the Number Even or Odd?
- * Problem Link : https://edabit.com/challenge/65dsmYkHsenAJ3979
+/* 
+   Problem-Task : Is the Number Even or Odd?
+   Problem Link : https://edabit.com/challenge/65dsmYkHsenAJ3979
 */
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int isEvenOrOdd(int number)
+#define ull unsigned long long
+
+void isOddOrEven(ull n)
 {
-    if(number%2==0)
-    {
-    	cout<<"even";
-	}
-	else 
-	{
-		cout<<"odd";
-	}
+    cout << ((n & 1) ? "odd" : "even");
 }
 
 int main()
 {
-    int number;
-    cin>>number;
-    isEvenOrOdd(number);
+    ull n;
+    cin >> n;
+    isOddOrEven(n);
     return 0;
 }
