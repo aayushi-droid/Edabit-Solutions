@@ -1,4 +1,4 @@
-//Similar to rotating an image as image can be considered as 2D array
+//https://www.geeksforgeeks.org/rotate-matrix-elements/
 #include<bits/stdc++.h>
 using namespace std;
 int main()
