@@ -6,9 +6,9 @@
 #include <iostream>
 using namespace std;
 
-int circuitPower(int voltage, int current)
+int circuitPower(int vol, int cur)
 {
-    return voltage*current;
+    return vol*cur;
 }
 
 int main()
