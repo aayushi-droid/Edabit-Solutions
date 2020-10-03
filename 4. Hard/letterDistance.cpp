@@ -1,7 +1,10 @@
 /*
-  * Given two words, the letter distance is calculated by taking the absolute value of the difference in character codes and summing up the difference.
-    If one word is longer than another, add the difference in lengths towards the score.
-  * Problem : https://edabit.com/challenge/5Xo5fBrQui9opFWH5
+    Given two words, the letter distance is calculated by taking the 
+  absolute value of the difference in character codes and summing up 
+  the difference.
+    If one word is longer than another, add the difference in lengths 
+  towards the score.
+    Problem : https://edabit.com/challenge/5Xo5fBrQui9opFWH5
 */
 
 #include<bits/stdc++.h>

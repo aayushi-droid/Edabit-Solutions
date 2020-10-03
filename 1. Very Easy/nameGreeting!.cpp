@@ -4,15 +4,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-string helloName(string name)
-{
+string helloName(string name){
     return "Hello " + name + "!";
 }
 
-int main()
-{
-
-    cout << helloName("Ed");
+int main(){
+	string name;
+	cin>>name;
+    cout << helloName(name);
     //helloName("Ed") ➞ "Hello Ed!"
     return 0;
 }
