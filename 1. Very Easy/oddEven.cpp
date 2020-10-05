@@ -12,7 +12,7 @@ int isEvenOrOdd(int number)
     {
     	cout<<"even";
 	}
-	else 
+    else 
 	{
 		cout<<"odd";
 	}
