@@ -11,11 +11,13 @@ bool lessThanOrEqualToZero(int a) {
 };
 
 int main() {
-
     int num;
-
     cin >> num;
-		cout << lessThanOrEqualToZero(num);
-    
-		return 0;
+	if(lessThanOrEqualToZero(num)){
+	    cout<<"True";
+	}
+	else{
+	    cout<<"False";
+	}
+	return 0;
 }

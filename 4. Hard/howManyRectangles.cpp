@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-    int step;
+    double step;
     cin>>step;
-    int tri=(step*(step+1))/2;
+    double tri=(step*(step+1))/2;
     cout<<tri*tri;
 }
