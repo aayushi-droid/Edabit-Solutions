@@ -1,2 +1,2 @@
 # Edabit-Solutions
-Edabit Solutions using Cpp
+Edabit Solutions using Cpp under Easy category
