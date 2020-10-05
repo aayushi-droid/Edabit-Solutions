@@ -6,14 +6,11 @@
 #include <string>
 using namespace std;
 
-string helloName(string name)
-{
-    string S = "Hello " + name + "!";
-    return S;
+string helloName(string name){
+    return "Hello " + name + "!";
 }
 
-int main()
-{
+int main(){
     string S;
     cin >> S;
     cout << helloName(S);
