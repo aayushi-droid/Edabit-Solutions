@@ -6,22 +6,13 @@
 #include <iostream>
 using namespace std;
 
-int isEvenOrOdd(int number)
-{
-    if(number%2==0)
-    {
-    	cout<<"even";
-	}
-	else 
-	{
-		cout<<"odd";
-	}
+string isEvenOrOdd(int number){
+    return (number%2==0)?"even":"odd";
 }
 
-int main()
-{
+int main(){
     int number;
     cin>>number;
-    isEvenOrOdd(number);
+    cout<<isEvenOrOdd(number);
     return 0;
 }

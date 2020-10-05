@@ -1,22 +1,19 @@
-// C++ program to Count number of ones in binary repersentation of a number
+// C++ program to Count number of ones in binary 
+// repersentation of a number
 #include <iostream>
 using namespace std; 
 
 /* Function to get no of set ones in binary 
 representation of positive integer n */
-unsigned int countSetOnes(unsigned int n) 
-{ 
-	unsigned int count = 0; 
-	while (n) { 
-		count += n & 1; 
-		n >>= 1; 
-	} 
-	return count; 
+int countSetOnes(int n) { 
+	if(n==0){
+		return 0;
+	}
+	return 1+countSetOnes(n & (n-1));
 } 
 
 /* Program to test function countSetOnes */
-int main() 
-{ 
+int main() { 
 	int i;
 	cout<<"Enter the number";
 	cin>>i;
@@ -24,4 +21,4 @@ int main()
 	return 0; 
 } 
 
-// This code is contributed by Keshav Jha
+// This code is contributed by Aastik Mandil

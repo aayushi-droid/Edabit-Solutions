@@ -1,30 +1,39 @@
-/* Problem-Task : This program checks whether numbers are consecutive
- * Problem Link : https://edabit.com/challenge/TMxknsmodKM3HDbYt
+/* Problem-Task : This program checks whether numbers are 
+consecutive
+Problem Link : https://edabit.com/challenge/TMxknsmodKM3HDbYt
 */
 
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+bool consecutive(priority_queue<int> pq){
+	int start=pq.top();
+	pq.pop();
+	while(!pq.empty()){
+		if(start-1!=pq.top()){
+			return false;
+		}
+		start--;
+		pq.pop();
+	}
+	return true;
+}
+
+
+int main(){
     int n;
     cin>>n;
-    vector<int> arr(n);
-    for(int i=0;i<n;i++)
-    {
-        cin>>arr[i];
+    priority_queue<int> pq;
+    for(int i=0;i<n;i++){
+    	int x;
+        cin>>x;
+        pq.push(x);
     }
-    sort(arr.begin(),arr.end());
-	int flag=0;
-	int k=arr[0];
-	for(int i=0;i<arr.size();i++)
-	{
-		if(arr[i]!=k+i)
-		{
-			flag=1;
-			break;
-		}
+    if(consecutive(pq)){
+    	cout<<"True";
 	}
-	if(flag==0) cout<<"Possible";
-	else cout<<"Not possible";
+	else{
+		cout<<"False";
+	}
+	return 0;
 }
