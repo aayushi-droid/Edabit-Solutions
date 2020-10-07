@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 string helloName(string name)
 {
     return "Hello " + name + "! How are you?";

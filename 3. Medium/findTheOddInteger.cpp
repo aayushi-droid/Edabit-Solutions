@@ -1,5 +1,6 @@
 /*
-  * This program finds the integer which appears odd number of times
+  * This program finds the integer which appears odd number 
+  of times
   * Problem : https://edabit.com/challenge/wgnmQTbfssuhvZHqe
 */
 
@@ -14,6 +15,7 @@ int findOdd(vector<int> ar) {
     }
     return ans;
 }
+
 int main() {
     int n;
     vector<int> ar;
