@@ -18,4 +18,16 @@ int main()
 		cout<<num <<" is odd"<<endl;
 
  return 0;
+
+
+string isEvenOrOdd(int number){
+    return (number%2==0)?"even":"odd";
+}
+
+int main(){
+    int number;
+    cin>>number;
+    cout<<isEvenOrOdd(number);
+    return 0;
+
 }
