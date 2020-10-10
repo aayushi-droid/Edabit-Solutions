@@ -12,8 +12,7 @@ int addition(int n) {
 }
 
 int main() {
-    int nextNumber;
-
-    nextNumber = addition(5);
-    cout << nextNumber << endl;
+    int number;
+    cin>>number;
+    cout << addition(number) << endl;
 }

@@ -1,19 +1,17 @@
 /* Problem-Task : Create a function that takes a name and returns a greeting in the form of a string.
- * Problem Link : https://edabit.com/challenge/MtG39AgXhyeePSiY2
+    * Problem : https://edabit.com/challenge/56XXwAkLJGbEccYfn
 */
-
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
-
 
 string helloName(string name){
     return "Hello " + name + "!";
 }
 
 int main(){
-    string S;
-    cin >> S;
-    cout << helloName(S);
+	string name;
+	cin>>name;
+    cout << helloName(name);
+    //helloName("Ed") ➞ "Hello Ed!"
     return 0;
 }
