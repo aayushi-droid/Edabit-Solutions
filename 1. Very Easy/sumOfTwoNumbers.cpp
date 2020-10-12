@@ -5,9 +5,19 @@
 using namespace std;
 
 int addition(int a, int b) {
-    return a + b;
-};
-
+    if (b > 0) { 
+        while (b > 0) { 
+            a++; 
+            b--; 
+        } 
+    } 
+    if (b < 0) { // when 'b' is negative 
+        while (b < 0) { 
+            a--; 
+            b++; 
+        } 
+    } 
+}
 int main() {
     int num1,num2;
     cin>>num1>>num2;
