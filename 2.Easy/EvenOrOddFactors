@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num, i;
+    cin>>num;
+    int count=1;
+    for (i = 1; i <= num/2; ++i) {
+        if (num % i == 0) {
+            count++;
+        }
+    }
+    if(count%2==0)
+    {
+        cout<<"Even";
+    }
+    else
+    {
+        cout<<"Odd";
+    }
+    return 0;
+}
