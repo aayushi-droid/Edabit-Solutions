@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+int main() {
+	char ch;
+	while(cin>>ch)
+    {  int N1,N2;
+    if(ch=='+'||ch=='-'||ch=='*'||ch=='/'||ch=='%')
+	{  
+		cin>>N1>>N2;
+    }
+		switch(ch)
+		{
+			case '+':
+                    cout<<N1+N2<<endl;
+			        break;
+			case '-':
+			cout<<N1-N2<<endl;
+			break;
+			case '*':
+				cout<<N1*N2<<endl;
+				break;
+			case '/':
+				if(N2!=0)
+				{
+					cout<<N1/N2<<endl;
+                    break;
+				}
+				else
+				{
+					break;
+                }	
+			case '%':
+				if(N2!=0)
+				{
+					cout<<N1%N2<<endl;
+                    break;
+				}
+				else
+				{
+					break;
+                }
+            case 'X':
+            case 'x':
+                break;
+            default:			
+				cout<<"Invalid input.Try again";
+        }
+    
+	}
+
+	return 0;
+}
