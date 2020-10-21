@@ -1,33 +1,42 @@
-#include<iostream>
-using namespace std;
-// Recursive function to return gcd of a and b
-int gcd(int a, int b)
-{
-    // Everything divides 0 
-    if (a == 0)
-       return b;
-    if (b == 0)
-       return a;
+#include <bits/stdc++.h> 
+using namespace std; 
   
-    // base case
-    if (a == b)
-        return a;
+typedef long long int ll; 
   
-    // a is greater
-    if (a > b)
-        return gcd(a-b, b);
-    return gcd(a, b-a);
-}
+// Utility function to find 
+// GCD of 'a' and 'b' 
+int gcd(int a, int b) 
+{ 
+    if (b == 0) 
+        return a; 
+    return gcd(b, a % b); 
+} 
   
+// Returns LCM of array elements 
+ll findlcm(int arr[], int n) 
+{ 
+    // Initialize result 
+    ll ans = arr[0]; 
+  
+    // ans contains LCM of arr[0], ..arr[i] 
+    // after i'th iteration, 
+    for (int i = 1; i < n; i++) 
+        ans = (((arr[i] * ans)) / 
+                (gcd(arr[i], ans))); 
+  
+    return ans; 
+} 
+  
+// Driver Code 
+int main() 
+{ 
+    int arr[5];
 
-int main()
-{
-    int a, b;
-    cout<<"Enter the first number  : ";
-    cin>>a;
-    cout<<endl;
-    cout<<"Enter the second number  : ";
-    cin>>b;
-    cout<<"\n GCD of "<<a<<" and "<<b<<" is "<<gcd(a, b);
-    return 0;
-}
+    for ( int i=0;i<5;i++)
+    {
+        cin>>arr[i];
+    }
+    int n = sizeof(arr[5]) / sizeof(arr[0]); 
+    printf("%lld", findlcm(arr, n)); 
+    return 0; 
+} 
